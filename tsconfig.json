@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./script/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "./src/**/*",
+    "./src/types/externals/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
